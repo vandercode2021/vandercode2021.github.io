@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  background: #000000;
+  font-family: Poppins;
+}
+.header {
+  font-weight: 10px;
+}
+.header span {
+  color: #f3b452;
+}
+.team {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.team span {
+  color: #f3b452;
+}
+.single-service {
+  padding: 35px;
+  transition: all 0.75s ease;
+}
+.single-service h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.single-service h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.single-service:hover {
+  background: #142f43;
+  color: #fff;
+}
+.jumbotron {
+  padding-top: 2 rem;
+  background-color: #e2edff;
+}
+.footer {
+  background-color: #142f43;
+  color: #fff;
+  text-align: center;
+}
+.link {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0px;
+}
+.link a {
+  text-decoration: none;
+  color: #fff;
+}
+.main {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Poppins;
+}
+.main span {
+  color: #f3b452;
+}
+.button {
+  background-color: #142f43;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-weight: 700;
+}
+.button:hover {
+  background-color: #f3b452;
+  color: #000000;
+  box-shadow: 0 8px 20px 0 #000000;
+}
