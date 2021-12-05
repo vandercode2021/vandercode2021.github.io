@@ -89,7 +89,6 @@ body {
   font-family: cambria;
 }
 
-
 /* ceren */
 .smk {
   font-size: medium;
@@ -115,33 +114,25 @@ body {
 .c {
   font-size: medium;
   margin-left: 6px;
-}
-.c span {
   color: #C0AB12;
 }
 .e {
   font-size: medium;
-}
-.e span {
   color: #075CAA;
 }
+ 
 .r {
   font-size: medium;
-}
-.r span {
   color: #D56A12;
 }
+ 
 .e2 {
   font-size: medium;
-}
-.e2 span {
   color: #961C52;
 }
 .n {
   font-size: medium;
   margin-right: 6px;
-}
-.n span {
   color: #257E17;
 }
  
