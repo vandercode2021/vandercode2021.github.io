@@ -88,3 +88,60 @@ body {
 .konten {
   display: flex;
 }
+
+
+/* ceren */
+.smk {
+  font-size: medium;
+  color: #142f43;
+  font-family: Montserrat;
+}
+.ceren {
+  font-weight: 900;
+  display: flex;
+  user-select: none;
+  justify-content: center;
+  font-family: Montserrat;
+}
+.motto {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 13px;
+  color: grey;
+  font-family: Cambria;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+}
+.c {
+  font-size: medium;
+  margin-left: 6px;
+}
+.c span {
+  color: #C0AB12;
+}
+.e {
+  font-size: medium;
+}
+.e span {
+  color: #075CAA;
+}
+.r {
+  font-size: medium;
+}
+.r span {
+  color: #D56A12;
+}
+.e2 {
+  font-size: medium;
+}
+.e2 span {
+  color: #961C52;
+}
+.n {
+  font-size: medium;
+  margin-right: 6px;
+}
+.n span {
+  color: #257E17;
+}
+ 
