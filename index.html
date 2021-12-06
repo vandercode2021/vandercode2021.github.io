@@ -103,6 +103,35 @@
         </div>
       </div>
     </div>
+  
+    
+<!--   Manfaat   -->
+  <section>
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide card" style="width: 18rem;">         
+          <img src="img/slide1.jpg" class="card-img-top">
+        <div class="single-service card">
+          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="swiper-slide card" style="width: 18rem;">
+        <img src="img/slide2.jpg" class="card-img-top">
+        <div class="single-service card">
+          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="swiper-slide card" style="width: 18rem;">
+        <img src="img/slide3.jpg" class="card-img-top">
+        <div class="single-service card">
+          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
 
     <!-- Footer -->
      <footer class="footer">
@@ -127,14 +156,39 @@
             </div>
         </footer>
 
-
+<!-- aosjs -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
         </script>
+    
+<!--   Bootstrap   -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>
+        
+        <!-- swiperjs -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop: true,
+        grabCursor: true,
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
 </body>
 
 </html>
