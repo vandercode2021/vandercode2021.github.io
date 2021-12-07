@@ -74,7 +74,6 @@ body {
 .button:hover {
   background-color: #f3b452;
   color: #000000;
-  box-shadow: 0 8px 20px 0 #000000;
 }
 .art {
   font-size: 16px;
