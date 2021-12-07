@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 body {
   background: #000000;
@@ -55,7 +55,7 @@ body {
 .main {
   font-size: 20px;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: bold;
   font-family: Poppins;
   color: #142f43;
 
@@ -96,14 +96,6 @@ body {
 .konten {
   font-family: cambria;
 }
-
-
-
-
-
-
-
-
 
 /* ceren */
 .smk {
