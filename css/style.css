@@ -85,7 +85,6 @@ body {
   font-size: 30px;
   font-weight: 700;
   color: #142f43;
-  text-transform: capitalize;
   text-align: center;
   margin-top: 40px;
 }
@@ -144,10 +143,6 @@ body {
   color: #257E17;
 }
  
- 
-
-
-
 /* Manfaat */
 section {
   position: relative;
