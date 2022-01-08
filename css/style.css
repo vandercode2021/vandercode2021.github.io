@@ -7,12 +7,15 @@ body {
 .header {
   font-weight: 10px;
 }
+.navbar {
+  background-color: #142f43;
+}
 .header span {
   color: #f3b452;
 }
 .team {
-   font-family: Poppins;
-   padding-top: 70px;
+  font-family: Poppins;
+  padding-top: 70px;
 }
 .team span {
   color: #f3b452;
@@ -36,7 +39,6 @@ body {
 .jumbotron {
   padding-top: 2 rem;
   background-color: #e2edff;
-  
 }
 .footer {
   background-color: #142f43;
@@ -58,7 +60,6 @@ body {
   font-weight: bold;
   font-family: Poppins;
   color: #142f43;
-
 }
 .main span {
   color: #f3b452;
@@ -70,11 +71,35 @@ body {
   border-radius: 30px;
   padding: 15px 40px;
   font-weight: 700;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
 .button:hover {
   background-color: #f3b452;
   color: #000000;
 }
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .art {
   font-size: 16px;
   color: grey;
@@ -121,28 +146,27 @@ body {
 .c {
   font-size: medium;
   margin-left: 6px;
-  color: #C0AB12;
+  color: #c0ab12;
 }
 .e {
   font-size: medium;
-  color: #075CAA;
+  color: #075caa;
 }
- 
+
 .r {
   font-size: medium;
-  color: #D56A12;
+  color: #d56a12;
 }
- 
+
 .e2 {
   font-size: medium;
-  color: #961C52;
+  color: #961c52;
 }
 .n {
   font-size: medium;
   margin-right: 6px;
-  color: #257E17;
+  color: #257e17;
 }
-
 
 /* Manfaat */
 section {
@@ -178,12 +202,9 @@ section {
 }
 .swiper-slide-active {
   transform: scale(1.2);
-  transition: .4s;
+  transition: 0.4s;
   filter: blur(0px);
 }
-
-
-
 
 /* pendapat para tokoh */
 .swiper-slide .box {
